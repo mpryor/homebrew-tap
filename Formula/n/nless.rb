@@ -3,8 +3,8 @@ class Nless < Formula
 
   desc "Nothing Less - A TUI for parsing and arranging tabular data"
   homepage "https://github.com/mpryor/nothing-less"
-  url "https://files.pythonhosted.org/packages/13/f4/65065e56f42769f9cb36ab6946f714cdb90fd06f7fbdfadb9ac9dafa6df7/nothing_less-0.6.0.tar.gz"
-  sha256 "73d1c36244b01596cbb83164d8162ca46baa3964ebb22b892de667bd6c4259bf"
+  url "https://files.pythonhosted.org/packages/05/97/4b5f41b1c843c57a8b3ab47c834b724216d962dc2144ba4ed08d2ade36ef/nothing_less-1.11.0.tar.gz"
+  sha256 "1dc92946417577021e21ec6494aed1f43c797e58e50f5eeec676aa53e19bcb22"
   license "MIT"
 
   depends_on "python@3.13"
@@ -29,9 +29,14 @@ class Nless < Formula
     sha256 "bb413d29f5eea38f31dd4754dd7377d4465116fb207585f97bf925588687c1ba"
   end
 
+  resource "packaging" do
+    url "https://files.pythonhosted.org/packages/65/ee/299d360cdc32edc7d2cf530f3accf79c4fca01e96ffc950d8a52213bd8e4/packaging-26.0.tar.gz"
+    sha256 "00243ae351a257117b6a241061796684b084ed1c516a08c48a3f7e147a9d80b4"
+  end
+
   resource "platformdirs" do
-    url "https://files.pythonhosted.org/packages/61/33/9611380c2bdb1225fdef633e2a9610622310fed35ab11dac9620972ee088/platformdirs-4.5.0.tar.gz"
-    sha256 "70ddccdd7c99fc5942e9fc25636a8b34d04c24b335100223152c2803e4063312"
+    url "https://files.pythonhosted.org/packages/23/e8/21db9c9987b0e728855bd57bff6984f67952bea55d6f75e055c46b5383e8/platformdirs-4.4.0.tar.gz"
+    sha256 "ca753cf4d81dc309bc67b0ea38fd15dc97bc30ce419a7f58d13eb3bf14c4febf"
   end
 
   resource "pygments" do
@@ -45,13 +50,13 @@ class Nless < Formula
   end
 
   resource "rich" do
-    url "https://files.pythonhosted.org/packages/fe/75/af448d8e52bf1d8fa6a9d089ca6c07ff4453d86c65c145d0a300bb073b9b/rich-14.1.0.tar.gz"
-    sha256 "e497a48b844b0320d45007cdebfeaeed8db2a4f4bcf49f15e455cfc4af11eaa8"
+    url "https://files.pythonhosted.org/packages/b3/c6/f3b320c27991c46f43ee9d856302c70dc2d0fb2dba4842ff739d5f46b393/rich-14.3.3.tar.gz"
+    sha256 "b8daa0b9e4eef54dd8cf7c86c03713f53241884e814f4e2f5fb342fe520f639b"
   end
 
   resource "textual" do
-    url "https://files.pythonhosted.org/packages/a2/30/38b615f7d4b16f6fdd73e4dcd8913e2d880bbb655e68a076e3d91181a7ee/textual-6.2.1.tar.gz"
-    sha256 "4699d8dfae43503b9c417bd2a6fb0da1c89e323fe91c4baa012f9298acaa83e1"
+    url "https://files.pythonhosted.org/packages/be/08/c6bcb1e3c4c9528ec9049f4ac685afdafc72866664270f0deb416ccbba2a/textual-8.0.2.tar.gz"
+    sha256 "7b342f3ee9a5f2f1bd42d7b598cae00ff1275da68536769510db4b7fe8cabf5d"
   end
 
   resource "typing-extensions" do
@@ -65,7 +70,6 @@ class Nless < Formula
   end
 
   def install
-    ENV["SOURCE_DATE_EPOCH"] = "1451574000" # Source doesn't include a valid timestamp
     virtualenv_install_with_resources
   end
 
