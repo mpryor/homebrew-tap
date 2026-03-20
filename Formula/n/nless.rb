@@ -4,7 +4,7 @@ class Nless < Formula
   desc "Nothing Less - A TUI for parsing and arranging tabular data"
   homepage "https://github.com/mpryor/nothing-less"
   url "https://files.pythonhosted.org/packages/b6/10/842a0118d4518ca8646b5a867636e0ca1145780941fb0db554fe2cf78e27/nothing_less-1.13.0.tar.gz"
-  sha256 "1dc92946417577021e21ec6494aed1f43c797e58e50f5eeec676aa53e19bcb22"
+  sha256 "0adc10ac2b44d39ec5987df7acf82eb94f2e9789b1569d8523991ca5d6054b0c"
   license "MIT"
 
   depends_on "python@3.13"
