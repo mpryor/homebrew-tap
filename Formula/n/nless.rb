@@ -3,8 +3,8 @@ class Nless < Formula
 
   desc "Nothing Less - A TUI for parsing and arranging tabular data"
   homepage "https://github.com/mpryor/nothing-less"
-  url "https://files.pythonhosted.org/packages/b6/10/842a0118d4518ca8646b5a867636e0ca1145780941fb0db554fe2cf78e27/nothing_less-1.13.0.tar.gz"
-  sha256 "0adc10ac2b44d39ec5987df7acf82eb94f2e9789b1569d8523991ca5d6054b0c"
+  url "https://files.pythonhosted.org/packages/7c/d4/f177ab9359b774b830c0d987f30d956f2b4a3bd8e0d183d2eac095b283f1/nothing_less-1.14.0.tar.gz"
+  sha256 "65fde3da7600f5b5d7db614adac91e0ceed28c8c584d7e46718f609e0f1ef2df"
   license "MIT"
 
   depends_on "python@3.13"
