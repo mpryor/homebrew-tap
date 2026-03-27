@@ -3,8 +3,8 @@ class Nless < Formula
 
   desc "Nothing Less - A TUI for parsing and arranging tabular data"
   homepage "https://github.com/mpryor/nothing-less"
-  url "https://files.pythonhosted.org/packages/7c/d4/f177ab9359b774b830c0d987f30d956f2b4a3bd8e0d183d2eac095b283f1/nothing_less-1.14.0.tar.gz"
-  sha256 "65fde3da7600f5b5d7db614adac91e0ceed28c8c584d7e46718f609e0f1ef2df"
+  url "https://files.pythonhosted.org/packages/86/d6/44a8b556b4c886e89ae4ec75fceafb85c68ca4be1f37c82332b0a51162be/nothing_less-1.15.0.tar.gz"
+  sha256 "7ed5ed0123d6efdfbd39217773a1c0179b1edec5d447ec81c7344e2f6f91e42d"
   license "MIT"
 
   depends_on "python@3.13"
@@ -55,8 +55,8 @@ class Nless < Formula
   end
 
   resource "textual" do
-    url "https://files.pythonhosted.org/packages/72/23/8c709655c5f2208ee82ab81b8104802421865535c278a7649b842b129db1/textual-8.1.1.tar.gz"
-    sha256 "eef0256a6131f06a20ad7576412138c1f30f92ddeedd055953c08d97044bc317"
+    url "https://files.pythonhosted.org/packages/70/41/fd22435b96a50f24472af31f15e9874ce0ffef0edabb74fcf3d598ab8e53/textual-8.2.0.tar.gz"
+    sha256 "a06201a732b2d2683d2ea11c2538eeb7315c4c7138ed8c8bdb48150b805eaf1e"
   end
 
   resource "typing-extensions" do
