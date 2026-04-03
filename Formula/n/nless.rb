@@ -3,8 +3,8 @@ class Nless < Formula
 
   desc "Nothing Less - A TUI for parsing and arranging tabular data"
   homepage "https://github.com/mpryor/nothing-less"
-  url "https://files.pythonhosted.org/packages/86/d6/44a8b556b4c886e89ae4ec75fceafb85c68ca4be1f37c82332b0a51162be/nothing_less-1.15.0.tar.gz"
-  sha256 "7ed5ed0123d6efdfbd39217773a1c0179b1edec5d447ec81c7344e2f6f91e42d"
+  url "https://files.pythonhosted.org/packages/2e/34/545e7d944f4cf41d241025cf8694d9b850e4409545f7ed1f8c9d1a316221/nothing_less-1.15.1.tar.gz"
+  sha256 "eeccaba11d69cda5149e5947db539bd1de68d02d4c56015576fde41a6216e584"
   license "MIT"
 
   depends_on "python@3.13"
@@ -40,8 +40,8 @@ class Nless < Formula
   end
 
   resource "pygments" do
-    url "https://files.pythonhosted.org/packages/b0/77/a5b8c569bf593b0140bde72ea885a803b82086995367bf2037de0159d924/pygments-2.19.2.tar.gz"
-    sha256 "636cb2477cec7f8952536970bc533bc43743542f70392ae026374600add5b887"
+    url "https://files.pythonhosted.org/packages/c3/b2/bc9c9196916376152d655522fdcebac55e66de6603a76a02bca1b6414f6c/pygments-2.20.0.tar.gz"
+    sha256 "6757cd03768053ff99f3039c1a36d6c0aa0b263438fcab17520b30a303a82b5f"
   end
 
   resource "pyperclip" do
@@ -55,8 +55,8 @@ class Nless < Formula
   end
 
   resource "textual" do
-    url "https://files.pythonhosted.org/packages/70/41/fd22435b96a50f24472af31f15e9874ce0ffef0edabb74fcf3d598ab8e53/textual-8.2.0.tar.gz"
-    sha256 "a06201a732b2d2683d2ea11c2538eeb7315c4c7138ed8c8bdb48150b805eaf1e"
+    url "https://files.pythonhosted.org/packages/69/b0/a9aedf13af1bfb1bf01cbc645ea5d5a4151b5d77ac1748b85c4f0d777d7d/textual-8.2.2.tar.gz"
+    sha256 "94e85267650cf679ac16ade5ac929055e836dc00798a0e6e3925926a5beee303"
   end
 
   resource "typing-extensions" do
